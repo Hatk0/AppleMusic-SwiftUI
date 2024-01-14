@@ -13,6 +13,7 @@
 		731CA3382B540E8A00A0DAA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731CA3372B540E8A00A0DAA0 /* Preview Assets.xcassets */; };
 		731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA3442B540FB600A0DAA0 /* LibraryView.swift */; };
 		731CA3492B54152E00A0DAA0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA3482B54152E00A0DAA0 /* TabBarView.swift */; };
+		731CA34B2B5415FA00A0DAA0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA34A2B5415FA00A0DAA0 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		731CA3372B540E8A00A0DAA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		731CA3442B540FB600A0DAA0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		731CA3482B54152E00A0DAA0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		731CA34A2B5415FA00A0DAA0 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				731CA3442B540FB600A0DAA0 /* LibraryView.swift */,
 				731CA3482B54152E00A0DAA0 /* TabBarView.swift */,
+				731CA34A2B5415FA00A0DAA0 /* BlurView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				731CA3332B540E8900A0DAA0 /* MainModule.swift in Sources */,
 				731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */,
+				731CA34B2B5415FA00A0DAA0 /* BlurView.swift in Sources */,
 				731CA3492B54152E00A0DAA0 /* TabBarView.swift in Sources */,
 				731CA3312B540E8900A0DAA0 /* AppleMusic_SwiftUIApp.swift in Sources */,
 			);
