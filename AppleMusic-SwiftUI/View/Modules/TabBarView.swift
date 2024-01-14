@@ -22,9 +22,7 @@ struct TabBarView: View {
             }
             .tint(.red)
             
-            BlurView()
-                .frame(height: 80)
-                .offset(y: -48)
+            MiniPlayer()
         }
     }
 }

@@ -14,6 +14,7 @@
 		731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA3442B540FB600A0DAA0 /* LibraryView.swift */; };
 		731CA3492B54152E00A0DAA0 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA3482B54152E00A0DAA0 /* TabBarView.swift */; };
 		731CA34B2B5415FA00A0DAA0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA34A2B5415FA00A0DAA0 /* BlurView.swift */; };
+		731CA34D2B54174F00A0DAA0 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA34C2B54174F00A0DAA0 /* MiniPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		731CA3442B540FB600A0DAA0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		731CA3482B54152E00A0DAA0 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		731CA34A2B5415FA00A0DAA0 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		731CA34C2B54174F00A0DAA0 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				731CA3442B540FB600A0DAA0 /* LibraryView.swift */,
 				731CA3482B54152E00A0DAA0 /* TabBarView.swift */,
 				731CA34A2B5415FA00A0DAA0 /* BlurView.swift */,
+				731CA34C2B54174F00A0DAA0 /* MiniPlayer.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				731CA3332B540E8900A0DAA0 /* MainModule.swift in Sources */,
 				731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */,
 				731CA34B2B5415FA00A0DAA0 /* BlurView.swift in Sources */,
+				731CA34D2B54174F00A0DAA0 /* MiniPlayer.swift in Sources */,
 				731CA3492B54152E00A0DAA0 /* TabBarView.swift in Sources */,
 				731CA3312B540E8900A0DAA0 /* AppleMusic_SwiftUIApp.swift in Sources */,
 			);
