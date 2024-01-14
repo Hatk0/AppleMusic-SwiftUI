@@ -110,14 +110,30 @@
 		731CA3422B540F3C00A0DAA0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				731CA3592B5455C100A0DAA0 /* TabBar */,
+				731CA3582B54559F00A0DAA0 /* Library */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		731CA3582B54559F00A0DAA0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
 				731CA3442B540FB600A0DAA0 /* LibraryView.swift */,
-				731CA3482B54152E00A0DAA0 /* TabBarView.swift */,
-				731CA34A2B5415FA00A0DAA0 /* BlurView.swift */,
 				731CA34C2B54174F00A0DAA0 /* MiniPlayer.swift */,
 				731CA3542B5438B600A0DAA0 /* ListView.swift */,
 				731CA3562B543CE200A0DAA0 /* ListRow.swift */,
 			);
-			path = Modules;
+			path = Library;
+			sourceTree = "<group>";
+		};
+		731CA3592B5455C100A0DAA0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				731CA3482B54152E00A0DAA0 /* TabBarView.swift */,
+				731CA34A2B5415FA00A0DAA0 /* BlurView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
