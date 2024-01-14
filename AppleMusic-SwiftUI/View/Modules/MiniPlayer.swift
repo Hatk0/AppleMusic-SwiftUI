@@ -12,7 +12,7 @@ struct MiniPlayer: View {
                 
                 Text("Black Hole Sun")
                     .font(.title3)
-                    .fontWeight(.semibold)
+                    .fontWeight(.regular)
                 
                 Spacer(minLength: 0)
                 
