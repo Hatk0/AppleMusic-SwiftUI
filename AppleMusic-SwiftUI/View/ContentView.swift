@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  AppleMusic-SwiftUI
-//
-//  Created by Dmitry Yastrebov on 14.01.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
