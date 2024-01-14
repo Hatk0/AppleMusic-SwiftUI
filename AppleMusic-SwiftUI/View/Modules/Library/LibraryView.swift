@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct LibraryView: View {
+    @Environment (\.editMode) private var isEdit
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .center) {
@@ -21,8 +23,9 @@ struct LibraryView: View {
             
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Edit") {
-                        print("Edit button tapped!")
+                    NavigationLink("Edit") {
+                        ListView()
+                            .navigationBarBackButtonHidden(true)
                     }
                     .foregroundColor(.red)
                 }
