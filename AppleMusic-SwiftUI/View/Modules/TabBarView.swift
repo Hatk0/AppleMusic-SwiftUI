@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MainModule: View {
+struct TabBarView: View {
     var body: some View {
         TabView {
             LibraryView()
@@ -23,8 +23,8 @@ struct MainModule: View {
     }
 }
 
-struct MainModule_Previews: PreviewProvider {
+struct TabBarView_Previews: PreviewProvider {
     static var previews: some View {
-        MainModule()
+        TabBarView()
     }
 }
