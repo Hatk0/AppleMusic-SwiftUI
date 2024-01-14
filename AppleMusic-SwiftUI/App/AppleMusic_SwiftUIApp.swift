@@ -4,7 +4,7 @@ import SwiftUI
 struct AppleMusic_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainModule()
         }
     }
 }

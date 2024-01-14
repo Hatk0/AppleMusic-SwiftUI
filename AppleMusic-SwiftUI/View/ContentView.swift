@@ -1,19 +1,30 @@
 import SwiftUI
 
-struct ContentView: View {
+struct MainModule: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            LibraryView()
+                .tabItem {
+                    Image(systemName: "play.square.stack")
+                    Text("Library")
+                }
+            Text("Radio")
+                .tabItem {
+                    Image(systemName: "dot.radiowaves.left.and.right")
+                    Text("Radio")
+                }
+            Text("Search")
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Search")
+                }
         }
-        .padding()
+        .tint(.red)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainModule_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainModule()
     }
 }
