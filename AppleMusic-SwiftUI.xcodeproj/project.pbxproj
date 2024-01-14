@@ -11,6 +11,7 @@
 		731CA3332B540E8900A0DAA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA3322B540E8900A0DAA0 /* ContentView.swift */; };
 		731CA3352B540E8A00A0DAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731CA3342B540E8A00A0DAA0 /* Assets.xcassets */; };
 		731CA3382B540E8A00A0DAA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731CA3372B540E8A00A0DAA0 /* Preview Assets.xcassets */; };
+		731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731CA3442B540FB600A0DAA0 /* LibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		731CA3322B540E8900A0DAA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		731CA3342B540E8A00A0DAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731CA3372B540E8A00A0DAA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		731CA3442B540FB600A0DAA0 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		731CA3422B540F3C00A0DAA0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				731CA3442B540FB600A0DAA0 /* LibraryView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				731CA3332B540E8900A0DAA0 /* ContentView.swift in Sources */,
+				731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */,
 				731CA3312B540E8900A0DAA0 /* AppleMusic_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
