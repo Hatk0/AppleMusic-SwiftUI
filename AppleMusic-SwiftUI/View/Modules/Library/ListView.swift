@@ -3,6 +3,7 @@ import SwiftUI
 struct ListView: View {
     @State private var selectedID: Set<UUID> = []
     @State private var listModel = LibraryListModel.listPanel
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationView {
@@ -15,14 +16,19 @@ struct ListView: View {
             }
             .listStyle(.inset)
             .environment(\.editMode, .constant(.active))
-            .navigationTitle("Media")
             .toolbar {
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    NavigationLink("Done") {
-                        LibraryView()
-                            .navigationBarBackButtonHidden(true)
-                    }.accentColor(.red)
+                    NavigationLink {
+                        } label: {
+                            Button {
+                                dismiss()
+                            } label: {
+                                Text("Done")
+                            }
+                            .tint(.red)
+                    }
+                        .navigationTitle("Media")
                 }
             }
         }

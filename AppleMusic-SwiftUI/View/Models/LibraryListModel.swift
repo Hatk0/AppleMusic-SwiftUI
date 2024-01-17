@@ -1,15 +1,10 @@
 import Foundation
-import SwiftUI
 
 struct LibraryListModel: Hashable, Identifiable {
     var id = UUID()
     var title: String
-    private var imageName: String
+    var imageName: String
     var isEdit: Bool = false
-    
-    var image: Image {
-        Image(systemName: imageName)
-    }
 }
 
 extension LibraryListModel {

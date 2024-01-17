@@ -6,7 +6,7 @@ struct ListRow: View {
     
     var body: some View {
         HStack {
-            listModel.image
+            Image(systemName: listModel.imageName)
                 .frame(width: 30, height: 30)
                 .foregroundColor(.red)
             
