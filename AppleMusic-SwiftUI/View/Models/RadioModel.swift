@@ -18,7 +18,7 @@ extension RadioModel {
     ]
     
     static var stations: [RadioModel] = [
-        RadioModel(title: "'90s Hits Station'", description: "Apple Music Hits", imageName: "90shits"),
+        RadioModel(title: "'90s Hits Station", description: "Apple Music Hits", imageName: "90shits"),
         RadioModel(title: "2000s Hits Station", description: "Apple Music Hits", imageName: "2000shits"),
         RadioModel(title: "2010s Hits Station", description: "Apple Music Hits", imageName: "2010shits"),
         RadioModel(title: "Chill Station", description: "Apple Music Chill", imageName: "chill"),
