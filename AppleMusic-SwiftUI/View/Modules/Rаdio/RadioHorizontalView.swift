@@ -12,6 +12,8 @@ struct RadioHorizontalView: View {
             LazyHGrid(rows: rows) {
                 ForEach(model) { model in
                     VStack(alignment: .leading) {
+                        Divider()
+                        
                         Text("Featured Station".uppercased())
                             .font(.footnote)
                             .foregroundColor(.gray)

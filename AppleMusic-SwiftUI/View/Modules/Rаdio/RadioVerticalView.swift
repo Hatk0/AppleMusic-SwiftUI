@@ -14,7 +14,6 @@ struct RadioVerticalView: View {
                 .fontWeight(.semibold)
                 .padding(.trailing, 250)
                 
-            
             LazyVGrid(columns: columns) {
                 ForEach(model) { model in
                     HStack() {
@@ -42,6 +41,9 @@ struct RadioVerticalView: View {
                     Divider()
                 }
             }
+            
+            Spacer()
+                .frame(height: 80)
         }
     }
 }
