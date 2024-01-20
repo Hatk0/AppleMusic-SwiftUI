@@ -27,7 +27,6 @@ struct RadioVerticalView: View {
                         
                         VStack(alignment: .leading) {
                             Text(model.title)
-                                .lineLimit(/*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
                             Text(model.description)
                                 .font(.subheadline)
                                 .foregroundColor(.gray)
