@@ -5,16 +5,14 @@ struct CategoryDetailView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    Text("Hits")
-                        .font(.system(.title, design: .default, weight: .heavy))
-                        .padding(.top, -50)
-                        .padding(.trailing, 310)
+                    CategoryDetailFeatureView()
+                        .padding(.top, -10)
                     
-                    CategoryDetailHorizontalView()
-                        .padding(.top, -40)
+                    CategoryDetailPlaylistView()
                 }
             }
         }
+        .navigationTitle("Hits")
     }
 }
 

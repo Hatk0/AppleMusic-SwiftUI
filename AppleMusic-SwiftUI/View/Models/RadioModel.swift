@@ -239,7 +239,7 @@ extension RadioModel {
         ),
         RadioModel(
             title: "Teen Pop Hits",
-            description: "For-and by-the future. 🔮",
+            description: "For-and by-the future",
             imageName: "teenpophits"
         ),
         RadioModel(
