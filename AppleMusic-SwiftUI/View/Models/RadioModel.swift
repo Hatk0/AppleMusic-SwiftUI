@@ -27,4 +27,21 @@ extension RadioModel {
         RadioModel(title: "Golden Age Hip-Hop Station", description: "Apple Music Hip-Hop", imageName: "goldenagehiphop"),
         RadioModel(title: "Lo-Fi Station", description: "Apple Music Chill", imageName: "lofi")
     ]
+    
+    static var categories: [RadioModel] = [
+        RadioModel(title: "Spatial Audio", description: "", imageName: "spatialaudio"),
+        RadioModel(title: "Hits in Russian", description: "", imageName: "russianhits"),
+        RadioModel(title: "Essentials", description: "", imageName: "essentials"),
+        RadioModel(title: "Chill", description: "", imageName: "chille"),
+        RadioModel(title: "Fitness", description: "", imageName: "fitness"),
+        RadioModel(title: "Charts", description: "", imageName: "charts"),
+        RadioModel(title: "Sleep", description: "", imageName: "sleep"),
+        RadioModel(title: "Hits", description: "", imageName: "hits"),
+        RadioModel(title: "2010s", description: "", imageName: "2010"),
+        RadioModel(title: "2000s", description: "", imageName: "2000"),
+        RadioModel(title: "90s", description: "", imageName: "90"),
+        RadioModel(title: "80s", description: "", imageName: "80"),
+        RadioModel(title: "Dance", description: "", imageName: "dance"),
+        RadioModel(title: "K-Pop", description: "", imageName: "kpop")
+    ]
 }
