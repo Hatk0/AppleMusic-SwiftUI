@@ -25,6 +25,7 @@
 		73AA84D02B5C2F44006B4FCD /* RadioHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA84CF2B5C2F44006B4FCD /* RadioHorizontalView.swift */; };
 		73AA84D22B5C3E3B006B4FCD /* RadioVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA84D12B5C3E3B006B4FCD /* RadioVerticalView.swift */; };
 		73E4B80D2B66A10A00180A59 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */; };
+		73E4B80F2B66B43B00180A59 /* CategoryDetailHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4B80E2B66B43B00180A59 /* CategoryDetailHorizontalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		73AA84CF2B5C2F44006B4FCD /* RadioHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioHorizontalView.swift; sourceTree = "<group>"; };
 		73AA84D12B5C3E3B006B4FCD /* RadioVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioVerticalView.swift; sourceTree = "<group>"; };
 		73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		73E4B80E2B66B43B00180A59 /* CategoryDetailHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailHorizontalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				737A3A7B2B6676840089FD8D /* SearchView.swift */,
 				737A3A812B667E8D0089FD8D /* SearchVerticalView.swift */,
 				73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */,
+				73E4B80E2B66B43B00180A59 /* CategoryDetailHorizontalView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				731CA3552B5438B600A0DAA0 /* ListView.swift in Sources */,
 				731CA3332B540E8900A0DAA0 /* MainModule.swift in Sources */,
+				73E4B80F2B66B43B00180A59 /* CategoryDetailHorizontalView.swift in Sources */,
 				73AA84CE2B5C1F88006B4FCD /* RadioModel.swift in Sources */,
 				731CA3512B54242D00A0DAA0 /* LibraryListModel.swift in Sources */,
 				731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */,

@@ -11,14 +11,13 @@ struct SearchVerticalView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             Text("Browse Categories")
-                .font(.callout)
-                .bold()
+                .font(.system(.body, weight: .heavy))
                 .padding(.bottom, -20)
-                .padding(.trailing, 220)
+                .padding(.trailing, 210)
             
-            LazyVGrid(columns: columns, spacing: 5) {
+            LazyVGrid(columns: columns, spacing: 10) {
                 ForEach(model) { model in
-                    NavigationLink(destination: Text("Details for \(model.title)")) {
+                    NavigationLink(destination: CategoryDetailView()) {
                         ZStack {
                             Image(model.imageName)
                                 .resizable()
