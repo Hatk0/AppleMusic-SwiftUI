@@ -36,7 +36,7 @@ extension RadioModel {
         RadioModel(title: "Fitness", description: "", imageName: "fitness"),
         RadioModel(title: "Charts", description: "", imageName: "charts"),
         RadioModel(title: "Sleep", description: "", imageName: "sleep"),
-        RadioModel(title: "Hits", description: "", imageName: "hits"),
+        RadioModel(title: "Hits", description: "", imageName: "hit"),
         RadioModel(title: "2010s", description: "", imageName: "2010"),
         RadioModel(title: "2000s", description: "", imageName: "2000"),
         RadioModel(title: "90s", description: "", imageName: "90"),
