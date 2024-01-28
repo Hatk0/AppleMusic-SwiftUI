@@ -14,7 +14,7 @@ struct SearchVerticalView: View {
                 .font(.callout)
                 .bold()
                 .padding(.bottom, -20)
-                .padding(.trailing, 210)
+                .padding(.trailing, 220)
             
             LazyVGrid(columns: columns, spacing: 5) {
                 ForEach(model) { model in
@@ -23,18 +23,19 @@ struct SearchVerticalView: View {
                             Image(model.imageName)
                                 .resizable()
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
-                                .frame(width: 180 ,height: 120)
+                                .frame(width: 180, height: 120)
                             
                             Text(model.title)
                                 .font(.system(size: 12, weight: .bold))
                                 .foregroundColor(.white)
-                                .padding(.top, 75)
+                                .padding(.top, 85)
                                 .padding(.leading, -75)
                         }
                     }
                 }
             }
             .padding()
+            .padding([.leading ,.trailing], -5)
             
             Spacer()
                 .frame(height: 80)
@@ -49,4 +50,3 @@ struct SearchVerticalView_Previews: PreviewProvider {
         }
     }
 }
-

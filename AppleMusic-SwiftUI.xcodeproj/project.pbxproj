@@ -24,6 +24,7 @@
 		73AA84CE2B5C1F88006B4FCD /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA84CD2B5C1F88006B4FCD /* RadioModel.swift */; };
 		73AA84D02B5C2F44006B4FCD /* RadioHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA84CF2B5C2F44006B4FCD /* RadioHorizontalView.swift */; };
 		73AA84D22B5C3E3B006B4FCD /* RadioVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA84D12B5C3E3B006B4FCD /* RadioVerticalView.swift */; };
+		73E4B80D2B66A10A00180A59 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		73AA84CD2B5C1F88006B4FCD /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 		73AA84CF2B5C2F44006B4FCD /* RadioHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioHorizontalView.swift; sourceTree = "<group>"; };
 		73AA84D12B5C3E3B006B4FCD /* RadioVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioVerticalView.swift; sourceTree = "<group>"; };
+		73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				737A3A7B2B6676840089FD8D /* SearchView.swift */,
 				737A3A812B667E8D0089FD8D /* SearchVerticalView.swift */,
+				73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				731CA3312B540E8900A0DAA0 /* AppleMusic_SwiftUIApp.swift in Sources */,
 				737A3A822B667E8D0089FD8D /* SearchVerticalView.swift in Sources */,
 				731CA3572B543CE200A0DAA0 /* ListRow.swift in Sources */,
+				73E4B80D2B66A10A00180A59 /* CategoryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,10 +1,3 @@
-//
-//  CategoryDetailView.swift
-//  AppleMusic-SwiftUI
-//
-//  Created by Dmitry Yastrebov on 28.01.2024.
-//
-
 import SwiftUI
 
 struct CategoryDetailView: View {
