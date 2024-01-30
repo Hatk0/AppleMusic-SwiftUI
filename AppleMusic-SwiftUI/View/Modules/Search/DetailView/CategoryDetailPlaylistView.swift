@@ -49,7 +49,7 @@ struct CategoryDetailPlaylistView: View {
                         }
                     }
                     .padding()
-                    .padding(.trailing, -30)
+                    .padding(.trailing, -20)
                 }
             }
         }

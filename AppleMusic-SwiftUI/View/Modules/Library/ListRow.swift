@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ListRow: View {
-    
     var listModel: LibraryListModel
     
     var body: some View {
