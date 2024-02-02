@@ -11,9 +11,9 @@ struct SearchVerticalView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             Text("Browse Categories")
-                .font(.system(.body, weight: .heavy))
-                .padding(.bottom, -20)
-                .padding(.trailing, 210)
+                .font(.system(size: 18, weight: .bold))
+                .padding(.top, 5)
+                .padding(.trailing, 200)
             
             LazyVGrid(columns: columns, spacing: 10) {
                 ForEach(model) { model in
@@ -22,19 +22,22 @@ struct SearchVerticalView: View {
                             Image(model.imageName)
                                 .resizable()
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
-                                .frame(width: 180, height: 120)
+                                .frame(width: 175, height: 120)
                             
-                            Text(model.title)
-                                .font(.system(size: 12, weight: .bold))
-                                .foregroundColor(.white)
-                                .padding(.top, 85)
-                                .padding(.leading, -75)
+                             VStack(alignment: .leading) {
+                                Text(model.title)
+                                    .font(.system(size: 14, weight: .bold))
+                                    .foregroundColor(.white)
+                                    .padding(.top, 85)
+                                    .padding([.leading, .trailing], -75)
+                            }
                         }
                     }
                 }
             }
             .padding()
             .padding([.leading ,.trailing], -5)
+            .padding(.top, -20)
             
             Spacer()
                 .frame(height: 80)

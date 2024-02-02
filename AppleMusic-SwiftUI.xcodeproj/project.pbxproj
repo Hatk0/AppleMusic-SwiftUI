@@ -129,28 +129,16 @@
 		731CA3402B540F1F00A0DAA0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				731CA3412B540F2300A0DAA0 /* Models */,
 				731CA3322B540E8900A0DAA0 /* MainModule.swift */,
 				731CA3422B540F3C00A0DAA0 /* Modules */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		731CA3412B540F2300A0DAA0 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				731CA3502B54242D00A0DAA0 /* LibraryListModel.swift */,
-				73AA84CD2B5C1F88006B4FCD /* RadioModel.swift */,
-				73E69B042B6D45FE002C4AD7 /* SongsModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		731CA3422B540F3C00A0DAA0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				73AE60872B69848A00FCD82F /* MiniPlayer */,
-				73AE607B2B696FBB00FCD82F /* Sliders */,
 				731CA3592B5455C100A0DAA0 /* TabBar */,
 				731CA3582B54559F00A0DAA0 /* Library */,
 				73AA84CC2B5AE807006B4FCD /* Rаdio */,
@@ -163,8 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				731CA3442B540FB600A0DAA0 /* LibraryView.swift */,
-				731CA3542B5438B600A0DAA0 /* ListView.swift */,
-				731CA3562B543CE200A0DAA0 /* ListRow.swift */,
+				73E623812B6D7A750092768B /* List */,
+				73E623802B6D7A5C0092768B /* Model */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -190,11 +178,10 @@
 		737A3A7A2B6676680089FD8D /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				73E69B022B6D4463002C4AD7 /* SearchObservableObject.swift */,
 				737A3A7B2B6676840089FD8D /* SearchView.swift */,
 				737A3A812B667E8D0089FD8D /* SearchVerticalView.swift */,
-				73E6237A2B6D4D850092768B /* SongsColumnView.swift */,
-				73E6237E2B6D76FE0092768B /* StationsColumnView.swift */,
+				73E623862B6D81D70092768B /* MusicColumns */,
+				73E623842B6D7B670092768B /* SearchResults */,
 				7355FCCE2B66F71A00B6A883 /* DetailView */,
 			);
 			path = Search;
@@ -204,8 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				73AA84CA2B5AE7F8006B4FCD /* RadioView.swift */,
-				73AA84CF2B5C2F44006B4FCD /* RadioHorizontalView.swift */,
-				73AA84D12B5C3E3B006B4FCD /* RadioVerticalView.swift */,
+				73E623822B6D7A960092768B /* Grids */,
+				73E623832B6D7AA30092768B /* Model */,
 			);
 			path = "Rаdio";
 			sourceTree = "<group>";
@@ -234,8 +221,69 @@
 				73AE60882B69849E00FCD82F /* AudioManager.swift */,
 				731CA34A2B5415FA00A0DAA0 /* BlurView.swift */,
 				73AE608E2B6992DB00FCD82F /* BlackHoleSun.mp3 */,
+				73AE607B2B696FBB00FCD82F /* Sliders */,
 			);
 			path = MiniPlayer;
+			sourceTree = "<group>";
+		};
+		73E623802B6D7A5C0092768B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				731CA3502B54242D00A0DAA0 /* LibraryListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E623812B6D7A750092768B /* List */ = {
+			isa = PBXGroup;
+			children = (
+				731CA3542B5438B600A0DAA0 /* ListView.swift */,
+				731CA3562B543CE200A0DAA0 /* ListRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		73E623822B6D7A960092768B /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				73AA84CF2B5C2F44006B4FCD /* RadioHorizontalView.swift */,
+				73AA84D12B5C3E3B006B4FCD /* RadioVerticalView.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
+		73E623832B6D7AA30092768B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73AA84CD2B5C1F88006B4FCD /* RadioModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E623842B6D7B670092768B /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				73E69B022B6D4463002C4AD7 /* SearchObservableObject.swift */,
+			);
+			path = SearchResults;
+			sourceTree = "<group>";
+		};
+		73E623862B6D81D70092768B /* MusicColumns */ = {
+			isa = PBXGroup;
+			children = (
+				73E623872B6D81F60092768B /* Model */,
+				73E6237A2B6D4D850092768B /* SongsColumnView.swift */,
+				73E6237E2B6D76FE0092768B /* StationsColumnView.swift */,
+			);
+			path = MusicColumns;
+			sourceTree = "<group>";
+		};
+		73E623872B6D81F60092768B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73E69B042B6D45FE002C4AD7 /* SongsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

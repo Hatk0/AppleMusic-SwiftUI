@@ -9,7 +9,7 @@ struct SearchView: View {
     
     @ObservedObject var observedObject = SearchObservableObject()
     @State private var searchTerm = ""
-    @State private var searchPlaceholder = "Your Library"
+    @State private var searchPlaceholder = "Artists, Songs, Lyrics and More"
     @State private var selectedSource: Sources = .yourLibrary
     
     var body: some View {

@@ -2,11 +2,6 @@ import SwiftUI
 
 struct SongsColumnView: View {
     var song: SongsModel
-    @Environment(\.colorScheme) var colorScheme
-    
-    var playlistsText: String {
-        return colorScheme == .dark ? "Light ellipsis" : "Dark ellipsis"
-    }
     
     var body: some View {
         HStack {
@@ -29,9 +24,7 @@ struct SongsColumnView: View {
                 // Action
             } label: {
                 Image(systemName: "ellipsis")
-                    .foregroundColor(
-                        colorScheme == .dark ? .white : .black
-                    )
+                    .foregroundColor(.white)
             }
         }
         .padding()
