@@ -12,12 +12,14 @@ struct SongsColumnView: View {
         HStack {
             Image(song.image)
                 .resizable()
-                .frame(width: 80, height: 80)
+                .frame(width: 60, height: 60)
                 .cornerRadius(10)
             
             VStack(alignment: .leading) {
                 Text(song.songTitle)
+                    .font(.system(size: 16, weight: .medium))
                 Text("Song · \(song.performer)")
+                    .font(.system(size: 16, weight: .medium))
                     .foregroundColor(.secondary)
             }
             
@@ -31,7 +33,6 @@ struct SongsColumnView: View {
                         colorScheme == .dark ? .white : .black
                     )
             }
-
         }
         .padding()
     }

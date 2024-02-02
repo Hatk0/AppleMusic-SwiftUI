@@ -32,6 +32,10 @@
 		73AE608F2B6992DB00FCD82F /* BlackHoleSun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73AE608E2B6992DB00FCD82F /* BlackHoleSun.mp3 */; };
 		73E4B80D2B66A10A00180A59 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */; };
 		73E4B80F2B66B43B00180A59 /* CategoryDetailFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4B80E2B66B43B00180A59 /* CategoryDetailFeatureView.swift */; };
+		73E6237B2B6D4D850092768B /* SongsColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6237A2B6D4D850092768B /* SongsColumnView.swift */; };
+		73E6237F2B6D76FE0092768B /* StationsColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6237E2B6D76FE0092768B /* StationsColumnView.swift */; };
+		73E69B032B6D4463002C4AD7 /* SearchObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E69B022B6D4463002C4AD7 /* SearchObservableObject.swift */; };
+		73E69B052B6D45FE002C4AD7 /* SongsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E69B042B6D45FE002C4AD7 /* SongsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +65,10 @@
 		73AE608E2B6992DB00FCD82F /* BlackHoleSun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BlackHoleSun.mp3; sourceTree = "<group>"; };
 		73E4B80C2B66A10A00180A59 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		73E4B80E2B66B43B00180A59 /* CategoryDetailFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailFeatureView.swift; sourceTree = "<group>"; };
+		73E6237A2B6D4D850092768B /* SongsColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsColumnView.swift; sourceTree = "<group>"; };
+		73E6237E2B6D76FE0092768B /* StationsColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsColumnView.swift; sourceTree = "<group>"; };
+		73E69B022B6D4463002C4AD7 /* SearchObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchObservableObject.swift; sourceTree = "<group>"; };
+		73E69B042B6D45FE002C4AD7 /* SongsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 			children = (
 				731CA3502B54242D00A0DAA0 /* LibraryListModel.swift */,
 				73AA84CD2B5C1F88006B4FCD /* RadioModel.swift */,
+				73E69B042B6D45FE002C4AD7 /* SongsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,8 +190,11 @@
 		737A3A7A2B6676680089FD8D /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				73E69B022B6D4463002C4AD7 /* SearchObservableObject.swift */,
 				737A3A7B2B6676840089FD8D /* SearchView.swift */,
 				737A3A812B667E8D0089FD8D /* SearchVerticalView.swift */,
+				73E6237A2B6D4D850092768B /* SongsColumnView.swift */,
+				73E6237E2B6D76FE0092768B /* StationsColumnView.swift */,
 				7355FCCE2B66F71A00B6A883 /* DetailView */,
 			);
 			path = Search;
@@ -301,8 +313,10 @@
 				731CA3552B5438B600A0DAA0 /* ListView.swift in Sources */,
 				731CA3332B540E8900A0DAA0 /* MainModule.swift in Sources */,
 				73E4B80F2B66B43B00180A59 /* CategoryDetailFeatureView.swift in Sources */,
+				73E69B032B6D4463002C4AD7 /* SearchObservableObject.swift in Sources */,
 				73AA84CE2B5C1F88006B4FCD /* RadioModel.swift in Sources */,
 				731CA3512B54242D00A0DAA0 /* LibraryListModel.swift in Sources */,
+				73E6237B2B6D4D850092768B /* SongsColumnView.swift in Sources */,
 				73AE60822B6971FC00FCD82F /* MusicProgressSlider.swift in Sources */,
 				731CA3452B540FB600A0DAA0 /* LibraryView.swift in Sources */,
 				73AA84CB2B5AE7F8006B4FCD /* RadioView.swift in Sources */,
@@ -310,6 +324,8 @@
 				731CA34B2B5415FA00A0DAA0 /* BlurView.swift in Sources */,
 				731CA34D2B54174F00A0DAA0 /* MiniPlayer.swift in Sources */,
 				73AA84D02B5C2F44006B4FCD /* RadioHorizontalView.swift in Sources */,
+				73E6237F2B6D76FE0092768B /* StationsColumnView.swift in Sources */,
+				73E69B052B6D45FE002C4AD7 /* SongsModel.swift in Sources */,
 				731CA3492B54152E00A0DAA0 /* TabBarView.swift in Sources */,
 				7355FCCD2B66F47200B6A883 /* CategoryDetailPlaylistView.swift in Sources */,
 				737A3A7C2B6676840089FD8D /* SearchView.swift in Sources */,

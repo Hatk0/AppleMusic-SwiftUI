@@ -19,7 +19,9 @@ struct CategoryDetailPlaylistView: View {
             HStack {
                 Text("Playlists")
                     .font(.system(.title3, weight: .semibold))
-                    .foregroundColor(colorScheme == .dark ? .white : .black)
+                    .foregroundColor(
+                        colorScheme == .dark ? .white : .black
+                    )
 
                 Image(systemName: "chevron.right")
                     .font(.subheadline)
