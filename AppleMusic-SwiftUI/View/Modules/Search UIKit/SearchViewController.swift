@@ -110,4 +110,14 @@ extension SearchViewController: UICollectionViewDelegate, UICollectionViewDataSo
         cell.configuration(model: RadioModel.categories[indexPath.item])
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+        
+        let detailView = HostingViewController()
+        
+        if let navigator = navigationController {
+            navigator.pushViewController(detailView, animated: true)
+        }
+    }
 }

@@ -21,6 +21,7 @@
 		732F2CD22B712DCA00976452 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F2CD12B712DCA00976452 /* SearchViewController.swift */; };
 		732F2CD42B7130CE00976452 /* SearchRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F2CD32B7130CE00976452 /* SearchRepresentable.swift */; };
 		732F2CD62B7136C000976452 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F2CD52B7136C000976452 /* SearchCell.swift */; };
+		732F2CD82B74099500976452 /* HostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732F2CD72B74099500976452 /* HostingViewController.swift */; };
 		7355FCCD2B66F47200B6A883 /* CategoryDetailPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355FCCC2B66F47200B6A883 /* CategoryDetailPlaylistView.swift */; };
 		737A3A7C2B6676840089FD8D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A3A7B2B6676840089FD8D /* SearchView.swift */; };
 		737A3A822B667E8D0089FD8D /* SearchVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A3A812B667E8D0089FD8D /* SearchVerticalView.swift */; };
@@ -57,6 +58,7 @@
 		732F2CD12B712DCA00976452 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		732F2CD32B7130CE00976452 /* SearchRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepresentable.swift; sourceTree = "<group>"; };
 		732F2CD52B7136C000976452 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		732F2CD72B74099500976452 /* HostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingViewController.swift; sourceTree = "<group>"; };
 		7355FCCC2B66F47200B6A883 /* CategoryDetailPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailPlaylistView.swift; sourceTree = "<group>"; };
 		737A3A7B2B6676840089FD8D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		737A3A812B667E8D0089FD8D /* SearchVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVerticalView.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				732F2CD32B7130CE00976452 /* SearchRepresentable.swift */,
 				732F2CD12B712DCA00976452 /* SearchViewController.swift */,
 				732F2CD52B7136C000976452 /* SearchCell.swift */,
+				732F2CD72B74099500976452 /* HostingViewController.swift */,
 			);
 			path = "Search UIKit";
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				731CA3492B54152E00A0DAA0 /* TabBarView.swift in Sources */,
 				7355FCCD2B66F47200B6A883 /* CategoryDetailPlaylistView.swift in Sources */,
 				737A3A7C2B6676840089FD8D /* SearchView.swift in Sources */,
+				732F2CD82B74099500976452 /* HostingViewController.swift in Sources */,
 				73AA84D22B5C3E3B006B4FCD /* RadioVerticalView.swift in Sources */,
 				731CA3312B540E8900A0DAA0 /* AppleMusic_SwiftUIApp.swift in Sources */,
 				737A3A822B667E8D0089FD8D /* SearchVerticalView.swift in Sources */,
