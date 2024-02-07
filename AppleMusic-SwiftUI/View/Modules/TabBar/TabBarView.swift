@@ -22,6 +22,11 @@ struct TabBarView: View {
                         Image(systemName: "magnifyingglass")
                         Text("Search")
                     }
+                SearchRepresentable()
+                    .tabItem {
+                        Image(systemName: "doc.text.magnifyingglass")
+                        Text("Search UIKit")
+                    }
             }
             .tint(.red)
             
